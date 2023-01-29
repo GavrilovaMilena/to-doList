@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 150px;
+}
+
+.input-list {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  width: 300px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 20px;
+  height: 40px;
+  padding: 0;
+}

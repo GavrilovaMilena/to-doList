@@ -3,6 +3,7 @@ body {
   background-color: #000000;
   margin: 0;
   display: block;
+  padding: 0 150px;
 }
 
 h1 {

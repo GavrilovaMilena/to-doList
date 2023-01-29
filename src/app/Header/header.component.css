@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 
 header-component {
-  width: 100%;
-  padding: 0 150px;
+  display: flex;
 }
 
 .wrapper {
@@ -18,4 +17,16 @@ header-component {
 .header-title {
   font-weight: 800;
   font-size: 48px;
+  cursor: default;
+}
+
+svg {
+  fill: #fff;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+svg:hover {
+  fill: #6c6c6c;
+  transition: 1s ease-in-out;
 }
