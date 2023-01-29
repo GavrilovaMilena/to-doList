@@ -8,6 +8,8 @@ header-component {
 .wrapper {
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: space-between;
   height: 100px;
   color: #eeeeee;
   font-family: 'Dosis', sans-serif;
