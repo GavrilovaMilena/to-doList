@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+header-component {
+  width: 100%;
+  padding: 0 150px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  color: #eeeeee;
+  font-family: 'Dosis', sans-serif;
+}
+
+.header-title {
+  font-weight: 800;
+  font-size: 48px;
+}
