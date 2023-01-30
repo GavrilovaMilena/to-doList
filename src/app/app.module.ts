@@ -6,6 +6,8 @@ import { HeaderComponent } from './Header/header.component';
 import { SignUpComponent } from './SignUp/signup.component';
 import { PopUpComponent } from './PopUp/popup.component';
 import { SignInComponent } from './SignIn/signin.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SignInComponent } from './SignIn/signin.component';
     SignInComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
