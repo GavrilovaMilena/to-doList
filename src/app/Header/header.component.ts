@@ -8,5 +8,10 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 
 export class HeaderComponent {
-
+  status = false;
+  fill = true;
+  openClosePopUp() {
+    this.status = !this.status;
+    this.fill = !this.fill;
+  }
 }

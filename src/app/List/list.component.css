@@ -20,3 +20,20 @@
   height: 40px;
   padding: 0;
 }
+
+.plus {
+  background-image: url('../../assets/plus.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width: 47px;
+  height: 41px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.plus:hover {
+  transition: 1s;
+  opacity: .6;
+}

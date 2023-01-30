@@ -1,11 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
 body {
   background-color: #000000;
   margin: 0;
   display: block;
   padding: 0 150px;
+  font-family: 'Dosis', sans-serif;
+  color: #eeeeee;
 }
 
 h1 {
+  margin: 0;
+}
+
+p {
   margin: 0;
 }

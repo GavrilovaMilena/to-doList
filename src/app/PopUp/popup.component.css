@@ -1,0 +1,64 @@
+popup-component {
+  display: flex;
+  background-color: #6c6c6c5c;
+  width: 260px;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.option {
+  padding: 0 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.container:hover {
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.36);
+}
+
+.container:first-child {
+  margin-bottom: 5px;
+}
+
+.img-in {
+  background-image: url('src/assets/SignIn.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.img-up {
+  background-image: url('src/assets/SignUp.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.sign {
+  font-weight: 800;
+}
