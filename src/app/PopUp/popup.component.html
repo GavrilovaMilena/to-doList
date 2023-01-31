@@ -1,16 +1,15 @@
-<div class='wrapper-popup'>
-  <div class='option'>
-    <div class='container'>
-      <div class='img-in'></div>
-      <p class='sign'>Войти</p>
-    </div>
-    <div class='container'>
-      <div class='img-up'></div>
-      <p class='sign'>Зарегестрироваться</p>
-    </div>
+<div class='option'>
+  <div class='container' (click)="openPopUpIn()">
+    <div class='img-in'></div>
+    <p class='sign'>Войти</p>
+  </div>
+  <div class='container'>
+    <div class='img-up'></div>
+    <p class='sign'>Зарегестрироваться</p>
   </div>
 </div>
-<div class='theme'>
-  <div class='light-theme'></div>
-  <div class='dark-theme'></div>
-</div>
+<signin-component [ngClass]="visibility ? 'signin-component' : 'hidden'"></signin-component>
+<!--<div class='theme'>-->
+<!--  <div class='light-theme'></div>-->
+<!--  <div class='dark-theme'></div>-->
+<!--</div>-->
