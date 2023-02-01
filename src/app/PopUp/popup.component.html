@@ -3,12 +3,13 @@
     <div class='img-in'></div>
     <p class='sign'>Войти</p>
   </div>
-  <div class='container'>
+  <div class='container' (click)="openPopUpUp()">
     <div class='img-up'></div>
     <p class='sign'>Зарегестрироваться</p>
   </div>
 </div>
 <signin-component [ngClass]="visibility ? 'signin-component' : 'hidden'"></signin-component>
+<signup-component [ngClass]="visibilityUp ? 'signup-component' : 'hidden'"></signup-component>
 <!--<div class='theme'>-->
 <!--  <div class='light-theme'></div>-->
 <!--  <div class='dark-theme'></div>-->

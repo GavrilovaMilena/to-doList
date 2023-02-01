@@ -8,6 +8,7 @@ import { PopUpComponent } from './PopUp/popup.component';
 import { SignInComponent } from './SignIn/signin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {CardsComponent} from "./Cards/cards.component";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     HeaderComponent,
     SignUpComponent,
     PopUpComponent,
-    SignInComponent
+    SignInComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
