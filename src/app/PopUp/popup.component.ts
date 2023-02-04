@@ -8,16 +8,9 @@ import {Component, ViewEncapsulation} from '@angular/core';
 })
 
 export class PopUpComponent {
+  visibility = false;
 
-  visibilityIn = false;
-  visibilityUp = false;
-  openPopUpIn() {
-    this.visibilityIn = !this.visibilityIn;
-
-  }
-
-  openPopUpUp() {
-    this.visibilityUp = !this.visibilityUp;
-
+  openPopUpSignUp() {
+    this.visibility = !this.visibility;
   }
 }

@@ -51,18 +51,3 @@ header-component {
   height: 50px;
   cursor: pointer;
 }
-
-.close-popup {
-  background-image: url('../../assets/close.svg');
-  width: 30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  cursor: pointer;
-  transition: 1s;
-}
