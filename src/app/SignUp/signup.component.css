@@ -23,6 +23,20 @@ signup-component {
   100% {transform: translateX(0);}
 }
 
+/*.close-up {*/
+/*  background-image: url('src/assets/close.svg');*/
+/*  background-repeat: no-repeat;*/
+/*  background-size: cover;*/
+/*  background-color: transparent;*/
+/*  border: none;*/
+/*  position: absolute;*/
+/*  right: 5px;*/
+/*  top: 5px;*/
+/*  width: 30px;*/
+/*  height: 30px;*/
+/*  cursor: pointer;*/
+/*}*/
+
 .title-up {
   font-size: 25px;
   font-weight: 800;

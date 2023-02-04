@@ -1,19 +1,27 @@
 header-component {
   display: flex;
+  background-image: url('src/assets/header-beckground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  border-radius: 0 0 30px 30px;
 }
 
 .wrapper {
   display: flex;
-  align-items: end;
+  align-items: center;
   width: 100%;
   justify-content: space-between;
   height: 100px;
+  padding: 0 150px;
 }
 
 .header-title {
   font-weight: 800;
   font-size: 48px;
   cursor: default;
+  color: #fff;
 }
 
 .profile {

@@ -9,10 +9,10 @@ import {Component, ViewEncapsulation} from '@angular/core';
 
 export class PopUpComponent {
 
-  visibility = false;
+  visibilityIn = false;
   visibilityUp = false;
   openPopUpIn() {
-    this.visibility = !this.visibility;
+    this.visibilityIn = !this.visibilityIn;
 
   }
 
