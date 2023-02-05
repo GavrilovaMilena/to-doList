@@ -5,5 +5,6 @@
     <input placeholder='E-mail' type='email' class='input-in'>
     <input placeholder='Пароль' type='password' class='input-in'>
   </div>
-  <p class='change-in'>Еще не зарегестрировались?<span>зарегестрироваться</span></p>
+  <p class='change-in'>Еще не зарегестрировались?<span (click)="openSignUpPopUp()">зарегестрироваться</span></p>
 </div>
+<signup-component [ngClass]="visibility ? 'signup-component' : 'hidden'"></signup-component>

@@ -1,75 +1,80 @@
 signup-component {
-  display: flex;
-  background-color: #1e1e1e;
-  width: 345px;
-  height: 300px;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
+  left: 0;
   top: 0;
-  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility .5s,opacity .5s linear;
+}
+
+.window-up {
+  display: flex;
+  background-color: #ffffff;
+  width: 430px;
+  height: 330px;
   border-radius: 15px;
   flex-direction: column;
-  align-items: center;
-  padding: 0 15px;
-  transform: translateX(50%);
-  animation: ani 1s forwards;
+  position: relative;
+}
+
+.close-popup {
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 1s;
+  background-color: transparent;
+  padding: 0;
+  width: 56px;
+  height: 56px;
+  border: none;
+  outline: none;
+  position: absolute;
+  background-image: url('src/assets/close.svg');
+  background-position: 50%;
+  background-size: cover;
+  right: -45px;
+  top: -45px;
 }
 
 .hidden {
-  display: none;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
 }
-
-@keyframes ani {
-  0% {transform: translateX(50%);}
-  100% {transform: translateX(0);}
-}
-
-/*.close-up {*/
-/*  background-image: url('src/assets/close.svg');*/
-/*  background-repeat: no-repeat;*/
-/*  background-size: cover;*/
-/*  background-color: transparent;*/
-/*  border: none;*/
-/*  position: absolute;*/
-/*  right: 5px;*/
-/*  top: 5px;*/
-/*  width: 30px;*/
-/*  height: 30px;*/
-/*  cursor: pointer;*/
-/*}*/
 
 .title-up {
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
-  padding-top: 15px;
+  padding: 30px 0 0 30px;
   cursor: default;
 }
 
 .container-up {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding-top: 50px;
+  padding: 50px 30px 45px;
 }
 
 .input-up {
   border: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #8d8d8d;
   background-color: transparent;
   font-size: 20px;
-  color: #fff;
-}
-
-.input-up:first-child {
   margin-bottom: 15px;
 }
 
-.input-up:last-child {
-  margin-top: 15px;
+.input-up:last-child{
+  margin-bottom: 0;
 }
 
 .change-up {
-  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,8 +84,7 @@ signup-component {
 
 span {
   font-weight: 800;
-  padding-top: 5px;
-  color: #ff6c6c;
+  color: #febd59;
   cursor: pointer;
   transition: 1s;
 }
