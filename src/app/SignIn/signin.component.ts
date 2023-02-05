@@ -3,14 +3,14 @@ import {Component, ViewEncapsulation} from '@angular/core';
 @Component({
   selector: 'signin-component',
   templateUrl: 'signin.component.html',
-  styleUrls: ['signin.component.css'],
+  styleUrls: ['signin.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
 
 export class SigninComponent {
-  visibility = false;
-
-  openSignUpPopUp() {
-    this.visibility = !this.visibility;
-  }
+  // visibility = true;
+  //
+  // openSignUpPopUp() {
+  //   this.visibility = !this.visibility;
+  // }
 }
