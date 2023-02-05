@@ -8,10 +8,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 
 export class HeaderComponent {
-  // visibility = false;
   fill = true;
-  openClosePopUp() {
-    // this.visibility = !this.visibility;
+  iconProfile() {
     this.fill = !this.fill;
   }
 }

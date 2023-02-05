@@ -13,7 +13,7 @@ signin-component {
   opacity: 1;
   transition: visibility .5s,opacity .5s linear;
 
-  .visible {
+  .hidden {
     overflow: hidden;
     visibility: hidden;
     opacity: 0;
