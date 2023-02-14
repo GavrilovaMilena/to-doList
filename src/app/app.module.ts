@@ -6,7 +6,6 @@ import { HeaderComponent } from './Header/header.component';
 import { SignUpComponent } from './SignUp/signup.component';
 import { SigninComponent } from './SignIn/signin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { CardsComponent } from "./Cards/cards.component";
 
 @NgModule({
@@ -19,8 +18,7 @@ import { CardsComponent } from "./Cards/cards.component";
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
-    MatSlideToggleModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
