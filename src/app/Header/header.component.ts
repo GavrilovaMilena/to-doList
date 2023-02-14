@@ -8,7 +8,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 
 export class HeaderComponent {
+  
   fill = true;
+  
   iconProfile() {
     this.fill = !this.fill;
   }
