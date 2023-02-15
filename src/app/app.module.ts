@@ -7,6 +7,7 @@ import { SignUpComponent } from './SignUp/signup.component';
 import { SigninComponent } from './SignIn/signin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardsComponent } from "./Cards/cards.component";
+import { AddCardsComponent } from './AddCard/addcards.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardsComponent } from "./Cards/cards.component";
     HeaderComponent,
     SignUpComponent,
     SigninComponent,
-    CardsComponent
+    CardsComponent,
+    AddCardsComponent
   ],
   imports: [
     BrowserModule,
