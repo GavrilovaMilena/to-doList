@@ -1,6 +1,9 @@
 <header-component></header-component>
 <div class='wrapper'>
-  <div class="date-wrapper">Today {{currentDate | date:'dd MMMM, EEEE'}}</div>
+  <div class="date-wrapper">{{currentDate | date:'dd MMMM'}}</div>
+  <div class="date-wrapper">{{currentDate | date:'EEEE'}}</div>
+  <div class="date-wrapper">{{currentDate | date:'HH:mm'}}</div>
   <cards-component></cards-component>
   <add-cards-component></add-cards-component>
+  <!-- <input type="date"> -->
 </div>
