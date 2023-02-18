@@ -9,16 +9,6 @@ export class AppComponent {
 
   title = 'to-do List';
 
-  days = [
-    'Воскресенье',
-    'Понедельник',
-    'Вторник',
-    'Среда',
-    'Четверг',
-    'Пятница',
-    'Суббота'
-  ];
-
   currentDate = new Date();
 
 }
