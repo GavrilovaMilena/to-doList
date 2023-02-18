@@ -1,4 +1,13 @@
 .wrapper {
   display: flex;
   padding: 100px 150px 100px;
+  flex-direction: column;
+  position: relative;
+
+  .date-wrapper {
+    font-size: 30px;
+    position: absolute;
+    right: 150px;
+    top: 5px;
+  }
 }
