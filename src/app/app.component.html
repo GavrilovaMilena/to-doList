@@ -1,8 +1,10 @@
 <header-component></header-component>
 <div class='wrapper'>
-  <div class="date-wrapper">{{currentDate | date:'dd MMMM'}}</div>
-  <div class="date-wrapper">{{currentDate | date:'EEEE'}}</div>
-  <div class="date-wrapper">{{currentDate | date:'HH:mm'}}</div>
+  <div class="date-container">
+    <div class="date-wrapper">{{currentDate | date:'dd MMMM'}}</div>
+    <div class="date-wrapper">{{currentDate | date:'EEEE'}}</div>
+    <div class="date-wrapper">{{currentDate | date:'HH:mm'}}</div>
+  </div>
   <cards-component></cards-component>
   <add-cards-component></add-cards-component>
   <!-- <input type="date"> -->

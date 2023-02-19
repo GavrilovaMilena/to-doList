@@ -1,19 +1,31 @@
 header-component {
   display: flex;
-  background-image: url('../../assets/img/header-background.jpg');
+  background-image: url('../../assets/img/leavs.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
   border: none;
   border-radius: 0 0 30px 30px;
+  position: relative;
+  padding: 25px 150px 0;
+  margin-bottom: 25px;
 
   .wrapper {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    height: 100px;
-    padding: 0 150px;
+    height: 350px;
+    flex-direction: column;
+
+
+    .header-container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
 
     .header-title {
       font-weight: 800;
